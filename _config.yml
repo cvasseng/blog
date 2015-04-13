@@ -7,7 +7,7 @@ title: tinkerer.xyz
 subtitle:
 description:
 author: chris
-email:
+email: chris@tinkerer.xyz
 language:
 
 # URL
@@ -33,6 +33,7 @@ external_link: true # Open external links in new tab
 filename_case: true
 post_asset_folder: false
 relative_link: false
+render_drafts: false
 highlight:
   enable: true
   line_number: true

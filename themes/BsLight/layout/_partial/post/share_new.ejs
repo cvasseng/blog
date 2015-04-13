@@ -4,4 +4,5 @@
       <a class="share-link share-<%= i %>" href="<%- theme.share[i] %>?url=<%- item.permalink %>&title=<%- item.description %>《<%- item.title %>》" title="<%= i %>"></a>
     <% } %>
   <% } %>
+  <a href="//www.reddit.com/submit" onclick="window.location = '//www.reddit.com/submit?url=<%- item.permalink %>&title=<%- item.title %>'; return false"> <img src="//www.redditstatic.com/spreddit5.gif" alt="submit to reddit" border="0" /> </a>
 </div>
